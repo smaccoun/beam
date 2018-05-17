@@ -6,7 +6,7 @@
 module Database.Beam.Backend.Types
   ( BeamBackend(..)
 
-  , FromBackendRowF(..), FromBackendRowM
+  , FromBackendRowF(..), FromBackendRowM, GFromBackendRow
   , parseOneField, peekField, checkNextNNull
 
   , FromBackendRow(..)
