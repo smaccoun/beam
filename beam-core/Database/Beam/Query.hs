@@ -2,6 +2,7 @@
 module Database.Beam.Query
     ( -- * Query type
       module Database.Beam.Query.Types
+    , QueryInaccessible
 
     -- ** Query expression contexts
     -- | A context is a type-level value that signifies where an expression can
